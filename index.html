@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Include necessary libraries and stylesheets -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    <script src="https://unpkg.com/aframe-mobile-controls@1.0.0/dist/aframe-mobile-controls.min.js"></script>
+    <!-- Other styles and meta tags as needed -->
+    <script src="./script.js"></script>
+    <script src="./smth.css"></script>
+
+    
+    <!-- Other meta tags and title -->
+    <link rel="stylesheet" type="text/css" href="smth.css">
+    <!-- The 'href' attribute should be the path to your CSS file -->
+
+
+</head>
+<body>
+    <a-scene background="color: #000000">
+        <!-- Camera with mobile controls -->
+        <a-camera wasd-controls-enabled="true" twoway-motion tilt-turn position="0 0 15"></a-camera>
+        <!-- Other entities (sky, text, etc.) -->
+ 
+        <a-scene>
+         <a-assets>
+           <img id="img1" src="img1.jpg">
+         </a-assets>
+       
+         <!-- Using the asset management system. -->
+         <a-image src="#img1" width="7" height="7" position="-13 1 2"></a-image>
+         
+         <a-assets>
+            <img id="img2" src="img2.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img2" width="7" height="7" position="15 1 2"></a-image>
+        
+          <a-assets>
+            <img id="img3" src="img3.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img3" width="7" height="7" position="45 1 2"></a-image>
+
+          <a-assets>
+            <img id="img4" src="img4.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img4" width="7" height="7" position="75 1 2"></a-image>
+
+          <a-assets>
+            <img id="img5" src="img4.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img5" width="7" height="7" position="98 1 2"></a-image>
+
+          <a-assets>
+            <img id="img6" src="img5.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img6" width="7" height="7" position="126 1 2"></a-image>
+
+          <a-assets>
+            <img id="img7" src="img6.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img7" width="7" height="7" position="154 1 2"></a-image>
+
+          <a-assets>
+            <img id="img8" src="img7.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img8" width="7" height="7" position="184 1 2"></a-image>
+          
+          
+        
+        
+          <a-assets>
+            <img id="img9" src="img9.jpg">
+          </a-assets>
+        
+          <!-- Using the asset management system. -->
+          <a-image src="#img9" width="7" height="7" position="0 -8 1"></a-image>
+          <a-assets>
+             <img id="img10" src="img10.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img10" width="7" height="7" position="30 -8 1"></a-image>
+         
+           <a-assets>
+             <img id="img11" src="img11.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img11" width="7" height="7" position="60 -8 1"></a-image>
+ 
+           <a-assets>
+             <img id="img12" src="img12.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img12" width="7" height="7" position="86 -8 1"></a-image>
+ 
+           <a-assets>
+             <img id="img13" src="img13.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img13" width="7" height="7" position="112 -8 1"></a-image>
+ 
+           <a-assets>
+             <img id="img14" src="img14.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img14" width="7" height="7" position="139 -8 1"></a-image>
+ 
+           <a-assets>
+             <img id="img15" src="img15.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img15" width="7" height="7" position="170 -8 1"></a-image>
+ 
+           <a-assets>
+             <img id="img16" src="img16.jpg">
+           </a-assets>
+         
+           <!-- Using the asset management system. -->
+           <a-image src="#img16" width="7" height="7" position="197 -8 1"></a-image>
+
+        
+
+
+     
+     
+
+      <a-entity
+
+      
+
+      ></a-entity>
+   
+      </a-entity>
+   </a-entity>
+     <!--Text-->
+     <a-entity
+     position="0 9 0"
+     text="font: exo2bold; align: center; width: 40; color: green; value: Atom Timeline"
+     animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 20000"></a-entity>
+     
+     <a-entity
+        position="0 6 1"
+     text="font: exo2bold; align: center; width: 25; color: green; value: Democritus (460-370 BCE)">
+     </a-entity>
+     
+     <a-entity
+        position="0 1 1"
+     text="font: exo2bold; align: center; width: 20; color: white; value: 
+     -Atoms were uniform, solid, hard, incompressible, and indestructible.
+     -Atoms moved in infinite numbers through empty space until they were stopped.
+     -Differences in atomic shape and size determined the various properties of matter.
+     Combining elements to form compounds
+     -Atoms are in constant motion"
+     
+      >
+      <a-entity
+      position="30 6 1"
+      text="font: exo2bold; align: center; width: 25; color: green; value: Dalton (1803)">
+      
+  </a-entity>
+  
+  <a-entity
+    position="30 1 1"
+    text="font: exo2bold; align: center; width: 20; color: white; value: 
+    - All matter is made of atoms, which are indivisible.
+    - All atoms of a given element are identical in mass and properties.
+    - Compounds are combinations of two or more different types of atoms.
+    - A given compound always has the same relative numbers and types of atoms.
+    ">
+    
+</a-entity>
+<a-entity
+    position="60 6 1"
+    text="font: exo2bold; align: center; width: 25; color: green; value: Thomson (1897)">
+
+
+    
+   </a-entity>
+   <a-entity
+   position="60 1 1"
+   text="font: exo2bold; align: center; width: 20; color: white; value:  
+   - All atoms contained tiny negatively charged subatomic particles called electrons.
+   - Atoms were not solid spheres
+   - Thomson proposed the 'plum pudding model' where electrons were embedded in a positively charged 'pudding.'">
+   
+  </a-entity>
+
+  <a-entity
+  position="88 6 1"
+  text="font: exo2bold; align: center; width: 25; color: green; value: Millikan (1909)">
+</a-entity>
+
+<a-entity
+  position="86 1 1"
+  text="font: exo2bold; align: center; width: 20; color: white; value: 
+  - Electrons have a discrete, 
+    quantifiable charge.
+  - Electrons must be part of atoms of all elements.
+  - Determined the charge and mass of the electron.
+  ">
+</a-entity>
+
+<a-entity
+  position="111 6 1"
+  text="font: exo2bold; align: center; width: 25; color: green; value: Rutherford (1911)">
+</a-entity>
+<a-entity
+  position="112 1 1"
+  text="font: exo2bold; align: center; width: 20; color: white; value: 
+-Atoms have a tiny, massive core called the nucleus.
+-The nucleus has a positive charge.
+-Electrons are particles with a negative charge.
+-Electrons orbit the nucleus.
+-The atom is mostly empty space, with electrons 
+ following predictable paths.
+
+  ">
+</a-entity>
+<a-entity
+  position="139 6 1"
+  text="font: exo2bold; align: center; width: 25; color: green; value: Bohr (Planetary Model) (1913)
+  ">
+</a-entity>
+<a-entity
+  position="139 1 1"
+  text="font: exo2bold; align: center; width: 20; color: white; value: 
+
+  -Electrons surround the nucleus of 
+   an atom in circular paths known as orbits.
+  -If an electron is in one of these orbits, 
+  its energy is fixed.
+  -Electrons move in fixed orbitals and not anywhere in between.
+
+  ">
+</a-entity>
+<a-entity
+  position="168 6 1"
+  text="font: exo2bold; align: center; width: 25; color: green; value: Schrödinger (1926)
+
+  ">
+</a-entity>
+<a-entity
+  position="170 1 1"
+  text="font: exo2bold; align: center; width: 20; color: white; value: 
+
+
+  -Proposed the quantum mechanical model of the atom.
+  -Treats electrons as matter waves.
+  -Tiny particles can be in two states at once until 
+   they're observed (related to quantum superposition).
+  -Created the equation  H ^ ψ = E ψ, which can be solved 
+   to find the series of wave function
+
+  
+
+  ">
+</a-entity>
+<a-entity
+  position="194 6 1"
+  text="font: exo2bold; align: center; width: 25; color: green; value: Chadwick (1932)
+
+
+  ">
+</a-entity>
+<a-entity
+  position="197 1 1"
+  text="font: exo2bold; align: center; width: 20; color: white; value: 
+  -Atoms consist of not only protons and electrons but also neutrons.
+  -Discovered that a neutral subatomic particle (neutron) 
+   has about the same mass as a proton.
+  -Neutrons occupy the nucleus of the atom.
+
+  ">
+</a-entity>
+     </a-entity>
+     
+     
+              
+             <a-sky src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fvia_lactea.png?v=1604296331712"></a-sky>
+     
+    </a-scene>
+    <!-- WASD Buttons -->
+    <div id="wasd-controls">
+        <button class="button" id="btnW">W</button>
+        <button class="button" id="btnA">A</button>
+        <button class="button" id="btnS">S</button>
+        <button class="button" id="btnD">D</button>
+    </div>
+    <!-- Include your JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
